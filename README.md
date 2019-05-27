@@ -4,11 +4,13 @@ The Notes app uses an SQLite database to store an HTML representation of your no
 
 ### Prerequsites
 
-[Node 8.5 >=](https://nodejs.org/en/download/current/)
+[Node >=8.5](https://nodejs.org/en/download/current/)
 
 ### Installation
 
-git clone https://github.com/mpolakdev/export-mac-notes.git
+1. `git clone https://github.com/mpolakdev/export-mac-notes.git`
+
+2. `npm install`
 
 ### Configuration
 
@@ -18,9 +20,9 @@ git clone https://github.com/mpolakdev/export-mac-notes.git
 
     `DB_PATH` - The absolute path to the SQLite database on your local machine that stores your Notes files.  
     `EXPORT_PATH` - The absolute path to the folder to export the files to (the folder must be created in advance).
-    `PAGE_FORMAT` - The format of the page the PDF will be in (see options [here](https://github.com/bauhausjs/phantom-html2pdf#paper-size)).
-    `PAGE_ORIENTATION` - The format of the page the PDF will be in (see options [here](https://github.com/bauhausjs/phantom-html2pdf#paper-size)). 
-    `PAGE_BORDER` - The format of the page the PDF will be in (see options [here](https://github.com/bauhausjs/phantom-html2pdf#paper-size)).  
+    `PAGE_FORMAT` - The format of the page the PDF will be in (see options [here](https://github.com/bauhausjs/phantom-html2pdf#paper-size)).  
+    `PAGE_ORIENTATION` - The format of the page the PDF will be in (see options [here](https://github.com/bauhausjs/phantom-html2pdf#paper-size)).   
+    `PAGE_BORDER` - The format of the page the PDF will be in (see options [here](https://github.com/bauhausjs/phantom-html2pdf#paper-size)).    
 
 Example:
 ```
@@ -33,5 +35,4 @@ PAGE_BORDER=.5in
 
 ### Usage
 
-From the project directory, run:  
 `npm run export`
