@@ -21,8 +21,8 @@ The Notes app uses an SQLite database to store an HTML representation of your no
     `DB_PATH` - The absolute path to the SQLite database on your local machine that stores your Notes files.  
     `EXPORT_PATH` - The absolute path to the folder to export the files to (the folder must be created in advance).
     `PAGE_FORMAT` - The format of the page the PDF will be in (see options [here](https://github.com/bauhausjs/phantom-html2pdf#paper-size)).  
-    `PAGE_ORIENTATION` - The format of the page the PDF will be in (see options [here](https://github.com/bauhausjs/phantom-html2pdf#paper-size)).   
-    `PAGE_BORDER` - The format of the page the PDF will be in (see options [here](https://github.com/bauhausjs/phantom-html2pdf#paper-size)).    
+    `PAGE_ORIENTATION` - The page's orientation/layout (see options [here](https://github.com/bauhausjs/phantom-html2pdf#paper-size)).   
+    `PAGE_BORDER` - The page's borders/margins (see options [here](https://github.com/bauhausjs/phantom-html2pdf#paper-size)).    
 
 Example:
 ```
